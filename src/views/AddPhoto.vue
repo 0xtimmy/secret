@@ -72,7 +72,6 @@ input.preview {
 <script lang="ts">
 import { Editor, EditorContent } from '@tiptap/vue-3'
 import StarterKit from '@tiptap/starter-kit'
-import { time } from 'console';
 
 export default {
     name: "Add Photo",
