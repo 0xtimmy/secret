@@ -1,0 +1,145 @@
+/* System */
+/*
+    -2:     6px
+    -1:     10px
+    base:   18px
+    h2:     1.68rem
+    h1:     2.82rem
+
+    type: #262626
+    paper: #fdfdfd
+    selected: #f0f0f0
+*/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+/* Layout Styles ----------------------------------------------------------- */
+
+
+html {
+    font-family: "EB Garamond", "serif";
+    background-image: url("/unit.svg");
+    font-size: 18px;
+    color: #262626
+}
+
+body {
+    margin: 0;
+    padding: 10px;
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+}
+
+.body {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 80ch;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    height: calc(100vh - 20px);
+}
+
+.main {
+    flex-grow: 1;
+    overflow:   auto;
+}
+
+/* Navigation */
+.nav {
+    font-family: "IBM Plex Mono", "monospace";
+    padding: 10px 18px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    border-bottom: 2px solid #262626;
+}
+.nav-item:first-child {
+    border-left: none;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 6px 10px;
+    border-left: 1px solid #262626;
+    color: #262626;
+    text-decoration: none;
+}
+.nav-item:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.nav-item.disabled {
+    text-decoration: none;
+    cursor: default;
+    font-weight: bold;
+}
+
+
+/* Header */
+header {
+    padding: 18px 1.68rem; 
+    border-bottom: 3px solid #262626;
+}
+
+/* Typescale */
+
+h1 {
+    font-size: 2.82rem;
+}
+
+h2 {
+    font-size: 1.68rem;
+}
+
+.note h1 {
+    font-size: 1.68rem;
+}
+.note h2 {
+    font-size: 1.41rem;
+}
+.note h1 {
+    font-size: 1.19rem;
+}
+
+p:first-child {
+    margin-top: 0;
+}
+p:last-child {
+    margin-bottom: 0;
+}
+
+.note {
+    border: 2px solid #262626;
+    padding: 10px 18px;
+}
+
+.cursive {
+    font-family: "Sacramento";
+}
+
+.ProseMirror {
+    outline: none;
+}
+
+/* Scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    opacity: 0;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #262626;
+    border-radius: 6px;
+  }
