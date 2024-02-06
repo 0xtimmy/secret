@@ -5,6 +5,7 @@
         </header>
         <div class="photos">
             <Entry v-for="entry in entries" :id="entry" :passcode="passcode" class="entry" />
+            <h2 v-if="entries.length == 0">fin</h2>
         </div>
     </div>
 </template>
