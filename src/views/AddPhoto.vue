@@ -106,7 +106,7 @@ export default {
                 })
                 if(photores.status == 200 && noteres.status == 200 && res.status == 200) {
                     console.log("uploaded successfully");
-                    (this.editor as any).content = "<p></p>";
+                    (this.editor as any).commands.clearContent()
                     this.img = "";
                     this.uploaded_img = false;
                     this.uploadbtn = "uploaded successfully!";

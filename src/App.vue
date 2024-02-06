@@ -10,7 +10,7 @@
         <RouterLink to="/" class="nav-item" :class="{ 'disabled': navinuse == 'home' }">Home</RouterLink>
         <RouterLink to="/scrapbook" class="nav-item" :class="{ 'disabled': navinuse == 'scrapbook' }">Scrapbook</RouterLink>
       </nav>
-      <RouterView class="main" :passcode="passcode"/>
+      <RouterView class="main" :passcode="passcode" :key="$route.fullPath"/>
     </div>
     <div v-else>
       <h1 @click="unlock" class="lock">🔒</h1>
