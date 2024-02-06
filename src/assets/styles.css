@@ -40,6 +40,8 @@ body {
     background-color: #fdfdfd;
     overflow: hidden;
     height: calc(100vh - 20px);
+    position: relative;
+    z-index: 2;
 }
 
 .main {
