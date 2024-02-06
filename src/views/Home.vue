@@ -2,7 +2,7 @@
     <div>
         <header>
             <h2>Dear Priya,</h2>
-            <h1>Happy six months 💖</h1>
+            <h1>Happy six months 🌹</h1>
         </header>
         <div class="letter">
             <p>
