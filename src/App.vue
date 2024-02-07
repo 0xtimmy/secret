@@ -78,7 +78,7 @@ export default {
     return {
       passcode: "",
       auth: false,
-      flowers: [] as Array<{bottom: String, left: String, type: String}>
+      flowers: [] as Array<{bottom: string, left: string, type: string}>
     }
   },
   computed: {
