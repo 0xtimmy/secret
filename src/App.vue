@@ -38,6 +38,7 @@
   border-radius: 1rem;
   border: 1px solid #262626;
   z-index: 2;
+  cursor: pointer;
 }
 
 .flower {

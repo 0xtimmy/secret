@@ -43,7 +43,7 @@
     background-color: #fdfdfd;
     max-width: 40ch;
     width: 40ch;
-    z-index: 2;
+    z-index: 10;
 }
 
 .note .ProseMirror {
