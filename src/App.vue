@@ -108,7 +108,7 @@ export default {
       }, 2000);
       setTimeout(() => {
         this.flowers.splice(0,1);
-      }, 120000);
+      }, 1200000);
     }
   },
   mounted: function() {
