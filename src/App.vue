@@ -45,7 +45,7 @@
   position: fixed;
   animation: grow 120s 1 forwards;
   z-index: 1;
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 .wiggle-wrapper:hover {
@@ -53,11 +53,14 @@
 }
 
 @keyframes grow {
-  0%, 100% {
-    font-size: 1rem;
+  0% {
+    font-size: 0rem;
   }
   20%, 80% {
     font-size: 4rem;
+  }
+  100% {
+    font-size: 2rem;
   }
 }
 
@@ -106,9 +109,6 @@ export default {
       setTimeout(() => {
         this.spawnflower();
       }, 2000);
-      setTimeout(() => {
-        this.flowers.splice(0,1);
-      }, 1200000);
     }
   },
   mounted: function() {
