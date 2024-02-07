@@ -11,12 +11,8 @@
                 I am often afraid that the lives of my friends, my family, and myself,,, the adventure and joy we share, will be forgotten.
             </p>
             <p>
-                At some point, you mentioned that, if I wanted to make a photo album, I should use instagram. 
-                But instagram feels,,, off? 
-                It's not a medium I'm familiar with. R2 buckets, however... >:)
-            </p>
-            <p>
-                Anyway, I thought it would be nice to put together a little collection of memories from our six months together.
+                Anyway, I thought it would be nice to put together a little collection of memories from our six months together. 
+                We'll have to make a real paper and glue one at some point but while we're long distance I hope this works :)
             </p>
             <p>
                 I may be far away, but you're always right here in my thoughts.
